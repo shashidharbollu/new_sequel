@@ -1,0 +1,97 @@
+<div class="container-fluid homepage">
+  <div class="container homepage-wrapper">
+    <div class="homepage-description container">
+      <h1 class="homepage-heading">A comprehensive platform for reliable</h1>
+      <div class="homepage-sub-heading typing">
+        <span class="text">job opportunities and internships</span>
+      </div>
+      <h6 class="homepage-sub-punch">Get Discovered. Get Hired</h6>
+      <div class="homepage-actions">
+        <a href="/jobs" class="btn btn-outline-warning">I'm a Job Seeker</a>
+        <button
+          type="button"
+          class="btn btn-outline-warning"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          I'm a Recruiter
+        </button>
+      </div>
+    </div>
+    <div class="homepage-image">
+      <img src="/images/jobs.png" alt="jobs" />
+    </div>
+  </div>
+  <div
+    class="modal"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1
+            class="modal-title fs-5"
+            id="exampleModalLabel"
+            class="home-heading"
+          >
+            Experience CareerHub
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <form action="/" method="post">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="name">Name</span>
+              <input
+                name="name"
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="name"
+                required
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="email">Email</span>
+              <input
+                name="email"
+                type="text"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+                aria-describedby="email"
+                required
+              />
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="password">Password</span>
+              <input
+                name="password"
+                type="password"
+                class="form-control"
+                placeholder="Password"
+                aria-label="Password"
+                aria-describedby="password"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-info">Register</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <span class="home-heading">Already Registered?</span>
+          <a href="/login" class="btn btn-success">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

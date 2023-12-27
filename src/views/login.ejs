@@ -1,0 +1,32 @@
+<div class="container login-wrapper bg-dark">
+  <h3 class="login-heading">Login</h3>
+  <form action="/login" method="post">
+    <div class="input-group mb-3">
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="email">Email</span>
+        <input
+          name="email"
+          type="text"
+          class="form-control"
+          placeholder="Email"
+          aria-label="Email"
+          aria-describedby="email"
+          required
+        />
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="password">Password</span>
+        <input
+          name="password"
+          type="password"
+          class="form-control"
+          placeholder="Password"
+          aria-label="Password"
+          aria-describedby="password"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-success">Login</button>
+    </div>
+  </form>
+</div>
